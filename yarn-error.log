@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Steacy Paquette\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @frontendmasters/pet
+
+PATH: 
+  C:\Users\Steacy Paquette\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Steacy Paquette\OneDrive\Bureau\adpot-me\node_modules\.bin;C:\cmder\bin;C:\cmder\vendor\bin;C:\Program Files\Haskell\bin;C:\Haskell Platform\8.6.5\lib\extralibs\bin;C:\Haskell Platform\8.6.5\bin;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Druide\Antidote 8\Programmes64\;C:\Program Files (x86)\Druide\Antidote 8\Programmes32\;C:\mongoShell\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Extraction Temp\FEM Downloads;C:\Haskell Platform\8.6.5\mingw\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\Ruby26-x64\bin;C:\Users\Steacy Paquette\AppData\Roaming\cabal\bin;C:\Users\Steacy Paquette\AppData\Roaming\local\bin;C:\Users\Steacy Paquette\AppData\Local\Microsoft\WindowsApps;C:\Users\Steacy Paquette\AppData\Local\Programs\Microsoft VS Code\bin;C:\mongoShell\bin;C:\Program Files\heroku\bin;C:\Program Files\JetBrains\WebStorm 2019.3.3\bin;C:\Extraction Temp\FEM Downloads;C:\Users\Steacy Paquette\AppData\Roaming\npm;C:\Program Files (x86)\FAHClient;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\cmder
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Steacy Paquette\OneDrive\Bureau\adpot-me\node_modules\deasync\bin\win32-x64-node-12\deasync.node'
+
+npm manifest: 
+  {
+    "name": "adopt-me",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "parcel src/index.html",
+      "format": "prettier \"src/**/*.{js,html,css}\" --write",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Me",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-eslint": "^10.1.0",
+      "eslint": "^6.8.0",
+      "eslint-config-prettier": "^6.10.0",
+      "eslint-plugin-import": "^2.20.1",
+      "eslint-plugin-jsx-a11y": "^6.2.3",
+      "eslint-plugin-react": "^7.19.0",
+      "eslint-plugin-react-hooks": "^2.5.1",
+      "parcel-bundler": "^1.12.4",
+      "prettier": "^1.19.1"
+    },
+    "dependencies": {
+      "@frontendmasters/pet": "^1.0.3",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
